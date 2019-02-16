@@ -148,9 +148,9 @@ header {
   vertical-align: middle;
 }
 
-#aboutMe {
+.aboutMe {
   width: 1300px;
-  height: 611px;
+  height: 579px;
   background-color: #f9f9f9;
 }
 
@@ -167,7 +167,7 @@ header {
   color: #3e3e3e;
   font-family: "Effra Corp";
   font-weight: 600;
-  padding-bottom: 19px;
+  padding-bottom: 9px;
 }
 
 .aboutMe__main__line {
@@ -215,4 +215,23 @@ header {
   height: 423px;
   margin-top: 80px;
   margin-right: 180px;
+}
+
+.workExperience {
+  background-color: #ffffff;
+}
+
+.workExperience__title {
+  padding-left: 85px;
+  padding-top: 80px;
+}
+
+.workExperience__title h2{
+  display: block;
+  font-size: 32px;
+  line-height: 36px;
+  color: #3e3e3e;
+  font-family: "Effra Corp";
+  font-weight: 600;
+  padding-bottom: 9px;
 }
