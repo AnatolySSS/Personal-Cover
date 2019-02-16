@@ -147,3 +147,12 @@ header {
   display: table-cell;
   vertical-align: middle;
 }
+#body{
+
+}
+
+#aboutMe {
+  width: 1300px;
+  height: 611px;
+  background-color: #f9f9f9;
+}
