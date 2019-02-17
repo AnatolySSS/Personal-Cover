@@ -217,8 +217,8 @@ header {
   margin-right: 180px;
 }
 
-.workExperience {
-  background-color: #ffffff;
+.workExperience, .education {
+  background-color: #f9f9f9;
 }
 
 .workExperience__details {
@@ -356,4 +356,47 @@ tspan { white-space:pre }
   background-color: #c6c6c6;
   margin-left: auto;
   margin-right: auto;
+}
+
+#mySkills {
+  background-color: #353541;
+  padding-bottom: 85px;
+}
+
+.mySkills__title {
+  padding-left: 85px;
+  padding-top: 80px;
+}
+
+.mySkills__title h2{
+  display: block;
+  font-size: 32px;
+  line-height: 36px;
+  color: #ffffff;
+  font-family: "Effra Corp";
+  font-weight: 600;
+  padding-bottom: 9px;
+}
+
+.mySkills__numbers {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 31px;
+  color: #ffffff;
+  font-family: "Effra Corp";
+  font-weight: 500;
+  padding-left: 85px;
+  padding-right: 85px;
+  margin-top: 44px;
+}
+
+.mySkills__left, .mySkills__central, .mySkills__right {
+  width: 33%;
+}
+
+.mySkills__numbers__p {
+  width: 266px;
+  text-align: center;
+  font-size: 22px;
 }
