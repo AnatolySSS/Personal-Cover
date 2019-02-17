@@ -222,7 +222,7 @@ header {
 }
 
 .workExperience__details {
-  height: 650px;
+  height: 530px;
   display: flex;
   justify-content: space-around;
 }
@@ -246,12 +246,12 @@ header {
   float: none;
   position: relative;
   width: 44px;
-  height: 600;
+  height: 345;
 }
 
 .workExperience__details__central__line {
   width: 2px;
-  height: 600px;
+  height: 345px;
   background-color: #353541;
   margin-left: auto;
   margin-right: auto;
@@ -307,4 +307,53 @@ header {
 
 .workExperience__details__left__2 {
   padding-top: 150px;
+}
+
+.workExperience__details__right__2 {
+    padding-top: 150px;
+}
+
+tspan { white-space:pre }
+
+.shp0 { fill: #353541 }
+
+.workExperience__details__left__1__text1 {
+  font-size: 22px;
+  fill: #ffffff;
+  font-family: "Effra Corp";
+  font-weight: 500;}
+
+.workExperience__details__left__1__text2 a {
+  font-size: 18px;
+  fill: #ffffff;
+  font-family: "Effra Corp";
+  font-weight: 100;
+}
+
+.workExperience__details__left__1__text2 a:hover {
+  font-size: 18px;
+  fill: #fb6470;
+  font-family: "Effra Corp";
+  font-weight: 100;
+}
+.workExperience__details__left__1__text3 {
+  font-size: 18px;
+  fill: #fb6470;
+  font-family: "Effra Corp";
+  font-weight: 400;
+}
+
+.workExperience__details__left__1__text4 {
+  font-size: 16px;
+  fill: #ffffff;
+  font-family: "Effra Corp";
+  font-weight: 400;
+}
+
+.separator {
+  width: 1116px;
+  height: 1px;
+  background-color: #c6c6c6;
+  margin-left: auto;
+  margin-right: auto;
 }
